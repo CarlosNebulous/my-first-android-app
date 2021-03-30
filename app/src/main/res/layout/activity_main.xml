@@ -11,6 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="81dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/name_placeholder"
@@ -27,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="249dp"
         android:text="@string/introduce_name"
+        android:layout_marginLeft="15dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp"
         android:typeface="normal"
@@ -36,12 +39,15 @@
 
     <Button
         android:id="@+id/buttonNext"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="1dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
         android:text="@string/next"
+        app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
