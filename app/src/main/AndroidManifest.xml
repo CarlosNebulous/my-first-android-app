@@ -8,6 +8,7 @@
         android:roundIcon="@mipmap/app_good_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Myfirstandroidapp">
+        <activity android:name=".AgeOptionsActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
