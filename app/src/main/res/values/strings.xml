@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">MyForms</string>
-    <string name="introduce_name">Please, introduce your name</string>
+    <string name="introduce_name">Please, introduce your name:</string>
     <string name="name_placeholder">Your Name</string>
     <string name="next">Next</string>
+    <string name="RadioButtons">Select your option:</string>
+    <string name="Greetings">Greetings</string>
+    <string name="Farewell">Farewell</string>
+    <string name="Age">Please, select your age:</string>
 </resources>
