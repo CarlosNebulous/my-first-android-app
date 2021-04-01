@@ -7,4 +7,6 @@
     <string name="Greetings">Greetings</string>
     <string name="Farewell">Farewell</string>
     <string name="Age">Please, select your age:</string>
+    <string name="Preview">Preview</string>
+    <string name="Share">Share it!</string>
 </resources>
