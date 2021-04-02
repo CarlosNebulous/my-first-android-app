@@ -23,14 +23,15 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn_next = findViewById(R.id.buttonNext);
         EditText name = findViewById(R.id.editTextPerson_name);
-        String NAME = name.getText().toString();
 
     btn_next.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+            String NAME = name.getText().toString();
             if (!NAME.equals("")) {
-                Intent intent = new Intent(MainActivity.this, AgeOptionsActivity.class);
-                intent.putExtra("name", NAME);
+                Intent intent_name = new Intent(MainActivity.this, AgeOptionsActivity.class);
+                intent_name.putExtra("name", NAME);
+                startActivity(intent_name);
             } else {
                 btn_next.setVisibility(View.GONE);
                 btn_next.setEnabled(false);

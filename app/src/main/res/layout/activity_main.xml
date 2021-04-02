@@ -15,7 +15,6 @@
         android:layout_marginRight="15dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/name_placeholder"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
