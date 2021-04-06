@@ -10,4 +10,6 @@
     <string name="Preview">Preview</string>
     <string name="Share">Share it!</string>
     <string name="ErrorNameEmpty">ERROR: Your name can not be empty!</string>
+    <string name="ErrorSelectionEmpty">ERROR: You have not selected any option!</string>
+    <string name="ErrorAgeOOB">ERROR: You must be between 16 and 60 years old!</string>
 </resources>
